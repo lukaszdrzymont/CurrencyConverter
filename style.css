@@ -1,0 +1,67 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+html{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+body {
+    background: linear-gradient(to right,#e8cbc0, #636fa4);
+    height: 100vh;
+}
+header {
+    display: flex;
+    justify-content: center;
+}
+main {
+    align-items: center;
+    display:flex;
+    height: 100vh;
+    justify-content:center;
+}
+.main-window {
+    align-items: center;
+    background-color: azure;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column; 
+    height: 450px;
+    justify-content: space-around;
+    width: 300px;
+}
+.amount {
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+ 
+}
+.input-amount {
+    border-radius: 5px;
+    font-size: 1.7rem;
+    height: 40px;
+    margin-top:20px ;
+    width: 200px;
+}
+.exchanger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+select {
+    border-radius: 5px;
+    height: 40px;
+    margin-bottom: 20px;
+    width: 270px;
+}
+.exchange-button{
+    background-color: #a7bbdb;
+    border: 2px solid #636fa4;
+    border-radius: 5px;
+    height: 50px;
+    width: 100px;
+}
+
+.result-of-conversion {
+    font-style: italic;
+}
